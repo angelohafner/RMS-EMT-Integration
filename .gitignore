@@ -8,6 +8,7 @@ runs/
 *.gf*/
 *.if*/
 delivery/*.zip
+delivery/PACKAGE_MANIFEST.json
 video/media*/
 video/output/
 video/*render.log
