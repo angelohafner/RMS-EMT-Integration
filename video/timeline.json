@@ -1,0 +1,74 @@
+{
+  "voice": "en-US-GuyNeural",
+  "rate": "+5%",
+  "pitch": "+2Hz",
+  "duration_s": 116.13333333333334,
+  "chapters": [
+    {
+      "id": "01_concept",
+      "title": "One study. Two time scales.",
+      "text": "How do we connect a power-system study to an electromagnetic transient simulation? Let's follow a real example! A two-hundred-and-thirty-kilovolt weak grid supports a one-hundred-megavar STATCOM. Python carries the solved operating point from P S S E into P S CAD.",
+      "start_s": 0.0,
+      "duration_s": 18.433333333333334,
+      "audio_duration_s": 17.208,
+      "audio_offset_s": 0.5,
+      "audio_file": "audio/01_concept.mp3",
+      "sha256": "3dd4c1ee89f16a4858e895997e1c3528f9d0424b35ed5c3891ef6ac3396b9643"
+    },
+    {
+      "id": "02_resolution",
+      "title": "Phasors and instantaneous waveforms",
+      "text": "R M S dynamics track fundamental-frequency phasors and their changing envelopes. E M T resolves instantaneous phase voltages and currents. The two views answer different questions. We compare equivalent quantities by aligning their measurement windows, while keeping the original signals available.",
+      "start_s": 18.433333333333334,
+      "duration_s": 19.666666666666668,
+      "audio_duration_s": 18.456,
+      "audio_offset_s": 0.5,
+      "audio_file": "audio/02_resolution.mp3",
+      "sha256": "e57461a2c50eb5eb11208977bb268f7057e374bc36f7ac8342397bc0d4c747c6"
+    },
+    {
+      "id": "03_transfer",
+      "title": "Transfer the electrical boundary",
+      "text": "First, solve the power flow and extract the Thevenin equivalent at the connection point. Python transfers voltage, power, and impedance with explicit units. Resistance is the real part of that impedance. Inductance is its imaginary part divided by two pi times frequency.",
+      "start_s": 38.1,
+      "duration_s": 19.133333333333333,
+      "audio_duration_s": 17.904,
+      "audio_offset_s": 0.5,
+      "audio_file": "audio/03_transfer.mp3",
+      "sha256": "ed6c052cb5c593ea2a0d30a1cc002c827bc60172116162dc1be11be31ecc6d90"
+    },
+    {
+      "id": "04_fault",
+      "title": "The same three-phase fault",
+      "text": "Now energize the averaged STATCOM model. Its nominal capability is plus or minus one hundred megavars, with a current limit. At one second, apply a three-phase fault for one hundred and fifty milliseconds. The native P S S E model receives the same disturbance.",
+      "start_s": 57.233333333333334,
+      "duration_s": 18.433333333333334,
+      "audio_duration_s": 17.208,
+      "audio_offset_s": 0.5,
+      "audio_file": "audio/04_fault.mp3",
+      "sha256": "be32e79bc98f1f147d44da8111728869262c65b3ba28d6cbc4511677c8da14ab"
+    },
+    {
+      "id": "05_results",
+      "title": "Compare the actual results",
+      "text": "Here are the real simulation results! With one-cycle measurement windows aligned, current and reactive power track closely. But look at the clearing-voltage transient. The E M T network stores electromagnetic energy; the R M S network is algebraic. Their angle tracking also differs.",
+      "start_s": 75.66666666666667,
+      "duration_s": 20.466666666666665,
+      "audio_duration_s": 19.248,
+      "audio_offset_s": 0.5,
+      "audio_file": "audio/05_results.mp3",
+      "sha256": "6cfec87d03e19e550f7c9124c9bdec7a4028b0eff312c845443eb8cfb1c6a528"
+    },
+    {
+      "id": "06_limits",
+      "title": "Sequential. Offline. Reproducible.",
+      "text": "The workflow passes physical consistency and time-step checks, but these are simplified terminal models, not manufacturer hardware validation. There is no switching or D C energy model. And this is sequential integration, not real-time co-simulation: transfer the boundary, run independently, then compare!",
+      "start_s": 96.13333333333334,
+      "duration_s": 20.0,
+      "audio_duration_s": 18.768,
+      "audio_offset_s": 0.5,
+      "audio_file": "audio/06_limits.mp3",
+      "sha256": "0e76c2892748020e6bd4d2cd3c3776d13c1b598ef84af0c77f9c60eacdb0575e"
+    }
+  ]
+}

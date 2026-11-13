@@ -1,0 +1,14 @@
+{
+  "source_engine": "PSS/E",
+  "source_version": "35.6",
+  "equivalent_to_emt": false,
+  "quantity_location": "STATCOM injection at PCC",
+  "q_sign": "positive injection",
+  "frequency_hz": 60.0,
+  "voltage_kv_ll": 230.0,
+  "fault": {"start_s": 1.0, "duration_s": 0.15, "resistance_ohm": 1.0},
+  "csv_sha256": "REQUIRED: SHA-256 of exported CSV",
+  "operating_point_sha256": "REQUIRED: SHA-256 of the matching operating_point.json",
+  "model_equivalence_notes": "REQUIRED: document external network, retained load, controller, current limits, synchronization, initialization, fault impedance/location and clearing topology.",
+  "missing_inputs": ["validated matching .dyr", "required user-model DLLs, if any", "native PSS/E .out/.outx with mapped channels", "model-equivalence assessment"]
+}

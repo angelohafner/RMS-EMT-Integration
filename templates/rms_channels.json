@@ -1,0 +1,11 @@
+{
+  "description": "Fill channel numbers and scaling from an independently validated, equivalent PSS/E dynamic study. No DYR or dynamic result is supplied.",
+  "psse_python_path": "C:/Program Files/PTI/PSSE35/35.6/PSSPY311",
+  "output_file": null,
+  "outvrsn": 1,
+  "channels": {
+    "v_pu": {"number": null, "scale": 1.0},
+    "i_ka": {"number": null, "scale": 1.0},
+    "q_mvar": {"number": null, "scale": 1.0}
+  }
+}

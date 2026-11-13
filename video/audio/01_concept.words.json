@@ -1,0 +1,205 @@
+{
+  "signature": "fdb0c0eb7ac01ec439e6c8af99bcf27818ecddf11acb5cfa4669e73c630b4460",
+  "words": [
+    {
+      "start": 0.097625,
+      "end": 0.252375,
+      "text": "How"
+    },
+    {
+      "start": 0.276208,
+      "end": 0.371458,
+      "text": "do"
+    },
+    {
+      "start": 0.39525,
+      "end": 0.514291,
+      "text": "we"
+    },
+    {
+      "start": 0.538083,
+      "end": 0.883333,
+      "text": "connect"
+    },
+    {
+      "start": 0.907125,
+      "end": 0.966666,
+      "text": "a"
+    },
+    {
+      "start": 0.978583,
+      "end": 1.609541,
+      "text": "power-system"
+    },
+    {
+      "start": 1.633333,
+      "end": 1.954749,
+      "text": "study"
+    },
+    {
+      "start": 1.978583,
+      "end": 2.097624,
+      "text": "to"
+    },
+    {
+      "start": 2.121416,
+      "end": 2.204749,
+      "text": "an"
+    },
+    {
+      "start": 2.228583,
+      "end": 3.109541,
+      "text": "electromagnetic"
+    },
+    {
+      "start": 3.121416,
+      "end": 3.621416,
+      "text": "transient"
+    },
+    {
+      "start": 3.633333,
+      "end": 4.359541,
+      "text": "simulation"
+    },
+    {
+      "start": 5.190458,
+      "end": 5.464249,
+      "text": "Let's"
+    },
+    {
+      "start": 5.476208,
+      "end": 5.761916,
+      "text": "follow"
+    },
+    {
+      "start": 5.785708,
+      "end": 5.821416,
+      "text": "a"
+    },
+    {
+      "start": 5.84525,
+      "end": 6.071458,
+      "text": "real"
+    },
+    {
+      "start": 6.083333,
+      "end": 6.666666,
+      "text": "example"
+    },
+    {
+      "start": 7.5,
+      "end": 7.619041,
+      "text": "A"
+    },
+    {
+      "start": 7.642875,
+      "end": 9.083333,
+      "text": "two-hundred-and-thirty-kilovolt"
+    },
+    {
+      "start": 9.09525,
+      "end": 9.285708,
+      "text": "weak"
+    },
+    {
+      "start": 9.309541,
+      "end": 9.559541,
+      "text": "grid"
+    },
+    {
+      "start": 9.583333,
+      "end": 9.976208,
+      "text": "supports"
+    },
+    {
+      "start": 10.0,
+      "end": 10.071416,
+      "text": "a"
+    },
+    {
+      "start": 10.09525,
+      "end": 11.047625,
+      "text": "one-hundred-megavar"
+    },
+    {
+      "start": 11.071416,
+      "end": 11.630957,
+      "text": "STATCOM"
+    },
+    {
+      "start": 12.476208,
+      "end": 12.904791,
+      "text": "Python"
+    },
+    {
+      "start": 12.928583,
+      "end": 13.273833,
+      "text": "carries"
+    },
+    {
+      "start": 13.297625,
+      "end": 13.40475,
+      "text": "the"
+    },
+    {
+      "start": 13.416666,
+      "end": 13.749999,
+      "text": "solved"
+    },
+    {
+      "start": 13.773791,
+      "end": 14.226166,
+      "text": "operating"
+    },
+    {
+      "start": 14.238083,
+      "end": 14.476166,
+      "text": "point"
+    },
+    {
+      "start": 14.5,
+      "end": 14.690458,
+      "text": "from"
+    },
+    {
+      "start": 14.714291,
+      "end": 14.904749,
+      "text": "P"
+    },
+    {
+      "start": 14.928583,
+      "end": 15.071458,
+      "text": "S"
+    },
+    {
+      "start": 15.09525,
+      "end": 15.261916,
+      "text": "S"
+    },
+    {
+      "start": 15.285708,
+      "end": 15.392833,
+      "text": "E"
+    },
+    {
+      "start": 15.416666,
+      "end": 15.607124,
+      "text": "into"
+    },
+    {
+      "start": 15.630958,
+      "end": 15.809541,
+      "text": "P"
+    },
+    {
+      "start": 15.833333,
+      "end": 15.976208,
+      "text": "S"
+    },
+    {
+      "start": 16.0,
+      "end": 16.357125,
+      "text": "CAD"
+    }
+  ]
+}

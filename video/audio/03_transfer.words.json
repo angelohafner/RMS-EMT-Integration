@@ -1,0 +1,215 @@
+{
+  "signature": "f260156dd5e67ef816c554e9e2d8a50965682f4496889fa322493f2bc46566ac",
+  "words": [
+    {
+      "start": 0.097625,
+      "end": 0.4905,
+      "text": "First"
+    },
+    {
+      "start": 0.692875,
+      "end": 0.966666,
+      "text": "solve"
+    },
+    {
+      "start": 0.978583,
+      "end": 1.085708,
+      "text": "the"
+    },
+    {
+      "start": 1.097625,
+      "end": 1.383333,
+      "text": "power"
+    },
+    {
+      "start": 1.407125,
+      "end": 1.680916,
+      "text": "flow"
+    },
+    {
+      "start": 1.692875,
+      "end": 1.776208,
+      "text": "and"
+    },
+    {
+      "start": 1.8,
+      "end": 2.228583,
+      "text": "extract"
+    },
+    {
+      "start": 2.252375,
+      "end": 2.347625,
+      "text": "the"
+    },
+    {
+      "start": 2.371416,
+      "end": 2.811874,
+      "text": "Thevenin"
+    },
+    {
+      "start": 2.835708,
+      "end": 3.407124,
+      "text": "equivalent"
+    },
+    {
+      "start": 3.430958,
+      "end": 3.514291,
+      "text": "at"
+    },
+    {
+      "start": 3.538083,
+      "end": 3.633333,
+      "text": "the"
+    },
+    {
+      "start": 3.657125,
+      "end": 4.085708,
+      "text": "connection"
+    },
+    {
+      "start": 4.109541,
+      "end": 4.454791,
+      "text": "point"
+    },
+    {
+      "start": 5.285708,
+      "end": 5.714291,
+      "text": "Python"
+    },
+    {
+      "start": 5.738083,
+      "end": 6.238083,
+      "text": "transfers"
+    },
+    {
+      "start": 6.261916,
+      "end": 6.690499,
+      "text": "voltage"
+    },
+    {
+      "start": 6.821416,
+      "end": 7.202374,
+      "text": "power"
+    },
+    {
+      "start": 7.380958,
+      "end": 7.488083,
+      "text": "and"
+    },
+    {
+      "start": 7.511916,
+      "end": 8.011916,
+      "text": "impedance"
+    },
+    {
+      "start": 8.023791,
+      "end": 8.154749,
+      "text": "with"
+    },
+    {
+      "start": 8.178583,
+      "end": 8.702374,
+      "text": "explicit"
+    },
+    {
+      "start": 8.726208,
+      "end": 9.166666,
+      "text": "units"
+    },
+    {
+      "start": 10.011916,
+      "end": 10.642874,
+      "text": "Resistance"
+    },
+    {
+      "start": 10.65475,
+      "end": 10.773791,
+      "text": "is"
+    },
+    {
+      "start": 10.797625,
+      "end": 10.90475,
+      "text": "the"
+    },
+    {
+      "start": 10.928583,
+      "end": 11.214291,
+      "text": "real"
+    },
+    {
+      "start": 11.226208,
+      "end": 11.476208,
+      "text": "part"
+    },
+    {
+      "start": 11.488083,
+      "end": 11.571416,
+      "text": "of"
+    },
+    {
+      "start": 11.59525,
+      "end": 11.75,
+      "text": "that"
+    },
+    {
+      "start": 11.761916,
+      "end": 12.392874,
+      "text": "impedance"
+    },
+    {
+      "start": 13.226208,
+      "end": 13.797624,
+      "text": "Inductance"
+    },
+    {
+      "start": 13.809541,
+      "end": 13.916666,
+      "text": "is"
+    },
+    {
+      "start": 13.940458,
+      "end": 14.083333,
+      "text": "its"
+    },
+    {
+      "start": 14.09525,
+      "end": 14.666666,
+      "text": "imaginary"
+    },
+    {
+      "start": 14.690458,
+      "end": 14.940458,
+      "text": "part"
+    },
+    {
+      "start": 14.952375,
+      "end": 15.357125,
+      "text": "divided"
+    },
+    {
+      "start": 15.380958,
+      "end": 15.499999,
+      "text": "by"
+    },
+    {
+      "start": 15.523791,
+      "end": 15.738082,
+      "text": "two"
+    },
+    {
+      "start": 15.761916,
+      "end": 15.976207,
+      "text": "pi"
+    },
+    {
+      "start": 16.0,
+      "end": 16.369041,
+      "text": "times"
+    },
+    {
+      "start": 16.380958,
+      "end": 17.047624,
+      "text": "frequency"
+    }
+  ]
+}

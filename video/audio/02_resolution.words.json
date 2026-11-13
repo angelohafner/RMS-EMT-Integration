@@ -1,0 +1,210 @@
+{
+  "signature": "4ccef07bcb228e7ee63c915c5e5a7a84323828c5b9a9a5a478309c7195855af8",
+  "words": [
+    {
+      "start": 0.097625,
+      "end": 0.311916,
+      "text": "R"
+    },
+    {
+      "start": 0.323791,
+      "end": 0.442832,
+      "text": "M"
+    },
+    {
+      "start": 0.466666,
+      "end": 0.597624,
+      "text": "S"
+    },
+    {
+      "start": 0.609541,
+      "end": 1.109541,
+      "text": "dynamics"
+    },
+    {
+      "start": 1.133333,
+      "end": 1.395249,
+      "text": "track"
+    },
+    {
+      "start": 1.419041,
+      "end": 2.526166,
+      "text": "fundamental-frequency"
+    },
+    {
+      "start": 2.55,
+      "end": 3.002375,
+      "text": "phasors"
+    },
+    {
+      "start": 3.026208,
+      "end": 3.180958,
+      "text": "and"
+    },
+    {
+      "start": 3.20475,
+      "end": 3.347625,
+      "text": "their"
+    },
+    {
+      "start": 3.371416,
+      "end": 3.776166,
+      "text": "changing"
+    },
+    {
+      "start": 3.8,
+      "end": 4.383333,
+      "text": "envelopes"
+    },
+    {
+      "start": 5.226208,
+      "end": 5.369083,
+      "text": "E"
+    },
+    {
+      "start": 5.392875,
+      "end": 5.559541,
+      "text": "M"
+    },
+    {
+      "start": 5.583333,
+      "end": 5.761916,
+      "text": "T"
+    },
+    {
+      "start": 5.785708,
+      "end": 6.214291,
+      "text": "resolves"
+    },
+    {
+      "start": 6.238083,
+      "end": 6.988083,
+      "text": "instantaneous"
+    },
+    {
+      "start": 7.0,
+      "end": 7.261916,
+      "text": "phase"
+    },
+    {
+      "start": 7.285708,
+      "end": 7.761916,
+      "text": "voltages"
+    },
+    {
+      "start": 7.785708,
+      "end": 7.880958,
+      "text": "and"
+    },
+    {
+      "start": 7.90475,
+      "end": 8.369041,
+      "text": "currents"
+    },
+    {
+      "start": 9.190458,
+      "end": 9.333333,
+      "text": "The"
+    },
+    {
+      "start": 9.357125,
+      "end": 9.5595,
+      "text": "two"
+    },
+    {
+      "start": 9.571416,
+      "end": 9.892832,
+      "text": "views"
+    },
+    {
+      "start": 9.916666,
+      "end": 10.238082,
+      "text": "answer"
+    },
+    {
+      "start": 10.261916,
+      "end": 10.583332,
+      "text": "different"
+    },
+    {
+      "start": 10.59525,
+      "end": 11.202375,
+      "text": "questions"
+    },
+    {
+      "start": 12.047625,
+      "end": 12.214291,
+      "text": "We"
+    },
+    {
+      "start": 12.238083,
+      "end": 12.595208,
+      "text": "compare"
+    },
+    {
+      "start": 12.607125,
+      "end": 13.107125,
+      "text": "equivalent"
+    },
+    {
+      "start": 13.130958,
+      "end": 13.630958,
+      "text": "quantities"
+    },
+    {
+      "start": 13.65475,
+      "end": 13.785708,
+      "text": "by"
+    },
+    {
+      "start": 13.809541,
+      "end": 14.226207,
+      "text": "aligning"
+    },
+    {
+      "start": 14.25,
+      "end": 14.380958,
+      "text": "their"
+    },
+    {
+      "start": 14.392875,
+      "end": 14.833333,
+      "text": "measurement"
+    },
+    {
+      "start": 14.857125,
+      "end": 15.285708,
+      "text": "windows"
+    },
+    {
+      "start": 15.535708,
+      "end": 15.702374,
+      "text": "while"
+    },
+    {
+      "start": 15.726208,
+      "end": 16.035749,
+      "text": "keeping"
+    },
+    {
+      "start": 16.059541,
+      "end": 16.154791,
+      "text": "the"
+    },
+    {
+      "start": 16.166666,
+      "end": 16.630957,
+      "text": "original"
+    },
+    {
+      "start": 16.65475,
+      "end": 17.035708,
+      "text": "signals"
+    },
+    {
+      "start": 17.059541,
+      "end": 17.607166,
+      "text": "available"
+    }
+  ]
+}

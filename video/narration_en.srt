@@ -1,0 +1,107 @@
+1
+00:00:00,598 --> 00:00:04,201
+How do we connect a power-system study to an electromagnetic transient
+
+2
+00:00:04,133 --> 00:00:09,663
+simulation Let's follow a real example A two-hundred-and-thirty-kilovolt
+
+3
+00:00:09,595 --> 00:00:13,854
+weak grid supports a one-hundred-megavar STATCOM Python carries
+
+4
+00:00:13,798 --> 00:00:16,937
+the solved operating point from P S S E into P S CAD
+
+5
+00:00:19,031 --> 00:00:22,789
+R M S dynamics track fundamental-frequency phasors and their changing
+
+6
+00:00:22,733 --> 00:00:27,382
+envelopes E M T resolves instantaneous phase voltages and currents
+
+7
+00:00:28,124 --> 00:00:32,120
+The two views answer different questions We compare equivalent
+
+8
+00:00:32,064 --> 00:00:35,049
+quantities by aligning their measurement windows while keeping
+
+9
+00:00:34,993 --> 00:00:36,620
+the original signals available
+
+10
+00:00:38,698 --> 00:00:42,087
+First solve the power flow and extract the Thevenin equivalent
+
+11
+00:00:42,031 --> 00:00:46,692
+at the connection point Python transfers voltage power and impedance
+
+12
+00:00:46,624 --> 00:00:51,073
+with explicit units Resistance is the real part of that impedance
+
+13
+00:00:51,826 --> 00:00:55,728
+Inductance is its imaginary part divided by two pi times frequency
+
+14
+00:00:57,831 --> 00:01:02,325
+Now energize the averaged STATCOM model Its nominal capability
+
+15
+00:01:02,269 --> 00:01:06,670
+is plus or minus one hundred megavars with a current limit At one
+
+16
+00:01:06,614 --> 00:01:10,301
+second apply a three-phase fault for one hundred and fifty milliseconds
+
+17
+00:01:11,055 --> 00:01:14,170
+The native P S S E model receives the same disturbance
+
+18
+00:01:16,264 --> 00:01:20,425
+Here are the real simulation results With one-cycle measurement
+
+19
+00:01:20,369 --> 00:01:24,675
+windows aligned current and reactive power track closely But look
+
+20
+00:01:24,619 --> 00:01:29,532
+at the clearing-voltage transient The E M T network stores electromagnetic
+
+21
+00:01:29,476 --> 00:01:34,128
+energy the R M S network is algebraic Their angle tracking also
+
+22
+00:01:34,071 --> 00:01:34,651
+differs
+
+23
+00:01:36,731 --> 00:01:40,144
+The workflow passes physical consistency and time-step checks but
+
+24
+00:01:40,088 --> 00:01:43,454
+these are simplified terminal models not manufacturer hardware
+
+25
+00:01:43,386 --> 00:01:48,618
+validation There is no switching or D C energy model And this is
+
+26
+00:01:48,562 --> 00:01:52,261
+sequential integration not real-time co-simulation transfer the
+
+27
+00:01:52,193 --> 00:01:54,642
+boundary run independently then compare

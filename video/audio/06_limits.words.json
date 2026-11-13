@@ -1,0 +1,215 @@
+{
+  "signature": "f894227ca39904d33ccd74928fefb298438b0d43d4a70af3a53d1488fc702df7",
+  "words": [
+    {
+      "start": 0.097625,
+      "end": 0.228583,
+      "text": "The"
+    },
+    {
+      "start": 0.252375,
+      "end": 0.64525,
+      "text": "workflow"
+    },
+    {
+      "start": 0.657125,
+      "end": 1.05,
+      "text": "passes"
+    },
+    {
+      "start": 1.073791,
+      "end": 1.478541,
+      "text": "physical"
+    },
+    {
+      "start": 1.502375,
+      "end": 2.157125,
+      "text": "consistency"
+    },
+    {
+      "start": 2.180958,
+      "end": 2.264291,
+      "text": "and"
+    },
+    {
+      "start": 2.288083,
+      "end": 2.740458,
+      "text": "time-step"
+    },
+    {
+      "start": 2.764291,
+      "end": 3.109541,
+      "text": "checks"
+    },
+    {
+      "start": 3.3,
+      "end": 3.430958,
+      "text": "but"
+    },
+    {
+      "start": 3.45475,
+      "end": 3.645208,
+      "text": "these"
+    },
+    {
+      "start": 3.669041,
+      "end": 3.752374,
+      "text": "are"
+    },
+    {
+      "start": 3.764291,
+      "end": 4.335707,
+      "text": "simplified"
+    },
+    {
+      "start": 4.359541,
+      "end": 4.728582,
+      "text": "terminal"
+    },
+    {
+      "start": 4.752375,
+      "end": 5.121416,
+      "text": "models"
+    },
+    {
+      "start": 5.311916,
+      "end": 5.538124,
+      "text": "not"
+    },
+    {
+      "start": 5.561916,
+      "end": 6.335707,
+      "text": "manufacturer"
+    },
+    {
+      "start": 6.359541,
+      "end": 6.740499,
+      "text": "hardware"
+    },
+    {
+      "start": 6.752375,
+      "end": 7.39525,
+      "text": "validation"
+    },
+    {
+      "start": 8.238083,
+      "end": 8.428541,
+      "text": "There"
+    },
+    {
+      "start": 8.440458,
+      "end": 8.559499,
+      "text": "is"
+    },
+    {
+      "start": 8.583333,
+      "end": 8.726208,
+      "text": "no"
+    },
+    {
+      "start": 8.738083,
+      "end": 9.190458,
+      "text": "switching"
+    },
+    {
+      "start": 9.202375,
+      "end": 9.3095,
+      "text": "or"
+    },
+    {
+      "start": 9.321416,
+      "end": 9.523791,
+      "text": "D"
+    },
+    {
+      "start": 9.535708,
+      "end": 9.761916,
+      "text": "C"
+    },
+    {
+      "start": 9.785708,
+      "end": 10.142833,
+      "text": "energy"
+    },
+    {
+      "start": 10.166666,
+      "end": 10.595249,
+      "text": "model"
+    },
+    {
+      "start": 11.416666,
+      "end": 11.583332,
+      "text": "And"
+    },
+    {
+      "start": 11.607125,
+      "end": 11.773791,
+      "text": "this"
+    },
+    {
+      "start": 11.797625,
+      "end": 11.90475,
+      "text": "is"
+    },
+    {
+      "start": 11.928583,
+      "end": 12.428583,
+      "text": "sequential"
+    },
+    {
+      "start": 12.452375,
+      "end": 13.023791,
+      "text": "integration"
+    },
+    {
+      "start": 13.333333,
+      "end": 13.523791,
+      "text": "not"
+    },
+    {
+      "start": 13.535708,
+      "end": 13.952374,
+      "text": "real-time"
+    },
+    {
+      "start": 13.976208,
+      "end": 14.773833,
+      "text": "co-simulation"
+    },
+    {
+      "start": 15.023791,
+      "end": 15.428541,
+      "text": "transfer"
+    },
+    {
+      "start": 15.452375,
+      "end": 15.547625,
+      "text": "the"
+    },
+    {
+      "start": 15.559541,
+      "end": 15.964291,
+      "text": "boundary"
+    },
+    {
+      "start": 16.142875,
+      "end": 16.321458,
+      "text": "run"
+    },
+    {
+      "start": 16.333333,
+      "end": 17.011916,
+      "text": "independently"
+    },
+    {
+      "start": 17.178583,
+      "end": 17.345249,
+      "text": "then"
+    },
+    {
+      "start": 17.357125,
+      "end": 17.928541,
+      "text": "compare"
+    }
+  ]
+}

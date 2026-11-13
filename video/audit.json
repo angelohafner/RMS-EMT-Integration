@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "duration_s": 116.099349,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "audio_codec": "aac",
+  "voice": "en-US-GuyNeural",
+  "narration": "AI-generated English, passionate voice profile",
+  "mean_volume_db": -23.8,
+  "max_volume_db": -3.9,
+  "data_provenance_verified": true,
+  "extrema_preserved": true,
+  "decode_errors": 0,
+  "subtitles": "English word-timed SRT and optional MP4 subtitle track",
+  "video_sha256": "4cf74e7dd9870b5dcbda146f295e6412c79740044b26a08e7a008b041a1b561a",
+  "subjective_listening": "Not certified by automated checks; original speech and review preview are supplied."
+}

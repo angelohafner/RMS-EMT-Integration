@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+evidence/
+runs/
+*.gf*/
+*.if*/
+delivery/*.zip
+video/media*/
+video/output/
+video/*render.log
+video/preview*.png
+tools/api_probe.py
+tools/inspect_docs.py

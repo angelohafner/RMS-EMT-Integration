@@ -1,0 +1,220 @@
+{
+  "signature": "463cb827ebc20a35a8f1940f8cc4ada17bb8a520a40be961e442ae7df053943f",
+  "words": [
+    {
+      "start": 0.097625,
+      "end": 0.359541,
+      "text": "Here"
+    },
+    {
+      "start": 0.383333,
+      "end": 0.490458,
+      "text": "are"
+    },
+    {
+      "start": 0.502375,
+      "end": 0.597625,
+      "text": "the"
+    },
+    {
+      "start": 0.621416,
+      "end": 0.895207,
+      "text": "real"
+    },
+    {
+      "start": 0.919041,
+      "end": 1.573791,
+      "text": "simulation"
+    },
+    {
+      "start": 1.597625,
+      "end": 2.157166,
+      "text": "results"
+    },
+    {
+      "start": 2.988083,
+      "end": 3.166666,
+      "text": "With"
+    },
+    {
+      "start": 3.190458,
+      "end": 3.714249,
+      "text": "one-cycle"
+    },
+    {
+      "start": 3.738083,
+      "end": 4.178541,
+      "text": "measurement"
+    },
+    {
+      "start": 4.202375,
+      "end": 4.5595,
+      "text": "windows"
+    },
+    {
+      "start": 4.583333,
+      "end": 4.988083,
+      "text": "aligned"
+    },
+    {
+      "start": 5.142875,
+      "end": 5.476208,
+      "text": "current"
+    },
+    {
+      "start": 5.5,
+      "end": 5.59525,
+      "text": "and"
+    },
+    {
+      "start": 5.619041,
+      "end": 6.107124,
+      "text": "reactive"
+    },
+    {
+      "start": 6.130958,
+      "end": 6.404749,
+      "text": "power"
+    },
+    {
+      "start": 6.428583,
+      "end": 6.654791,
+      "text": "track"
+    },
+    {
+      "start": 6.678583,
+      "end": 7.202374,
+      "text": "closely"
+    },
+    {
+      "start": 8.047625,
+      "end": 8.226208,
+      "text": "But"
+    },
+    {
+      "start": 8.25,
+      "end": 8.428583,
+      "text": "look"
+    },
+    {
+      "start": 8.452375,
+      "end": 8.523791,
+      "text": "at"
+    },
+    {
+      "start": 8.547625,
+      "end": 8.65475,
+      "text": "the"
+    },
+    {
+      "start": 8.666666,
+      "end": 9.428582,
+      "text": "clearing-voltage"
+    },
+    {
+      "start": 9.452375,
+      "end": 10.107125,
+      "text": "transient"
+    },
+    {
+      "start": 10.940458,
+      "end": 11.071416,
+      "text": "The"
+    },
+    {
+      "start": 11.09525,
+      "end": 11.285708,
+      "text": "E"
+    },
+    {
+      "start": 11.297625,
+      "end": 11.476208,
+      "text": "M"
+    },
+    {
+      "start": 11.5,
+      "end": 11.690458,
+      "text": "T"
+    },
+    {
+      "start": 11.714291,
+      "end": 12.095249,
+      "text": "network"
+    },
+    {
+      "start": 12.107125,
+      "end": 12.40475,
+      "text": "stores"
+    },
+    {
+      "start": 12.428583,
+      "end": 13.285708,
+      "text": "electromagnetic"
+    },
+    {
+      "start": 13.309541,
+      "end": 13.666666,
+      "text": "energy"
+    },
+    {
+      "start": 13.857125,
+      "end": 13.96425,
+      "text": "the"
+    },
+    {
+      "start": 13.988083,
+      "end": 14.154749,
+      "text": "R"
+    },
+    {
+      "start": 14.166666,
+      "end": 14.297624,
+      "text": "M"
+    },
+    {
+      "start": 14.321416,
+      "end": 14.464291,
+      "text": "S"
+    },
+    {
+      "start": 14.476208,
+      "end": 14.880958,
+      "text": "network"
+    },
+    {
+      "start": 14.892875,
+      "end": 15.011916,
+      "text": "is"
+    },
+    {
+      "start": 15.035708,
+      "end": 15.738083,
+      "text": "algebraic"
+    },
+    {
+      "start": 16.571416,
+      "end": 16.845207,
+      "text": "Their"
+    },
+    {
+      "start": 16.857125,
+      "end": 17.142833,
+      "text": "angle"
+    },
+    {
+      "start": 17.166666,
+      "end": 17.571416,
+      "text": "tracking"
+    },
+    {
+      "start": 17.59525,
+      "end": 17.880958,
+      "text": "also"
+    },
+    {
+      "start": 17.90475,
+      "end": 18.40475,
+      "text": "differs"
+    }
+  ]
+}

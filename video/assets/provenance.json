@@ -1,0 +1,244 @@
+{
+  "source": "Actual licensed PSS/E and PSCAD output",
+  "curves": {
+    "capacitive_emt_v_pu": {
+      "source_file": "runs/dynamic_capacitive_v2/report/emt_processed.csv",
+      "source_sha256": "80e08a44950f62d3b25cb2064fa98601f234437b9efb3c8ee735efae32c813ce",
+      "samples": 700,
+      "full_interval_min": 0.007268513687,
+      "full_interval_max": 1.518582564,
+      "reduced_min": 0.007268513687,
+      "reduced_max": 1.518582564
+    },
+    "capacitive_emt_i_ka": {
+      "source_file": "runs/dynamic_capacitive_v2/report/emt_processed.csv",
+      "source_sha256": "80e08a44950f62d3b25cb2064fa98601f234437b9efb3c8ee735efae32c813ce",
+      "samples": 700,
+      "full_interval_min": 0.02014680893,
+      "full_interval_max": 0.2509417257,
+      "reduced_min": 0.02014680893,
+      "reduced_max": 0.2509417257
+    },
+    "capacitive_emt_q_mvar": {
+      "source_file": "runs/dynamic_capacitive_v2/report/emt_processed.csv",
+      "source_sha256": "80e08a44950f62d3b25cb2064fa98601f234437b9efb3c8ee735efae32c813ce",
+      "samples": 701,
+      "full_interval_min": 0.044390956,
+      "full_interval_max": 123.2943839,
+      "reduced_min": 0.044390956,
+      "reduced_max": 123.2943839
+    },
+    "capacitive_rms_v_pu": {
+      "source_file": "runs/dynamic_capacitive_v2/report/rms_cycle_envelopes.csv",
+      "source_sha256": "1bf76c42a9a4fd4f7252b4a8b914cfac54380ac12cd4fcee7cf87e0f978a2547",
+      "samples": 599,
+      "full_interval_min": 0.005352221148,
+      "full_interval_max": 1.266445123,
+      "reduced_min": 0.005352221148,
+      "reduced_max": 1.266445123
+    },
+    "capacitive_rms_i_ka": {
+      "source_file": "runs/dynamic_capacitive_v2/report/rms_cycle_envelopes.csv",
+      "source_sha256": "1bf76c42a9a4fd4f7252b4a8b914cfac54380ac12cd4fcee7cf87e0f978a2547",
+      "samples": 600,
+      "full_interval_min": 0.02183397304,
+      "full_interval_max": 0.2509383473,
+      "reduced_min": 0.02183397304,
+      "reduced_max": 0.2509383473
+    },
+    "capacitive_rms_q_mvar": {
+      "source_file": "runs/dynamic_capacitive_v2/report/rms_cycle_envelopes.csv",
+      "source_sha256": "1bf76c42a9a4fd4f7252b4a8b914cfac54380ac12cd4fcee7cf87e0f978a2547",
+      "samples": 600,
+      "full_interval_min": 0.2549256956,
+      "full_interval_max": 126.2289367,
+      "reduced_min": 0.2549256956,
+      "reduced_max": 126.2289367
+    },
+    "inductive_emt_v_pu": {
+      "source_file": "runs/dynamic_inductive_v2/report/emt_processed.csv",
+      "source_sha256": "1f8221fd77006fe6ccf4dd9d2f20295550da81b4def4fdd8fab487ec19d06b49",
+      "samples": 700,
+      "full_interval_min": 0.006914287146,
+      "full_interval_max": 1.404420258,
+      "reduced_min": 0.006914287146,
+      "reduced_max": 1.404420258
+    },
+    "inductive_emt_i_ka": {
+      "source_file": "runs/dynamic_inductive_v2/report/emt_processed.csv",
+      "source_sha256": "1f8221fd77006fe6ccf4dd9d2f20295550da81b4def4fdd8fab487ec19d06b49",
+      "samples": 701,
+      "full_interval_min": 0.04571388804,
+      "full_interval_max": 0.2508685058,
+      "reduced_min": 0.04571388804,
+      "reduced_max": 0.2508685058
+    },
+    "inductive_emt_q_mvar": {
+      "source_file": "runs/dynamic_inductive_v2/report/emt_processed.csv",
+      "source_sha256": "1f8221fd77006fe6ccf4dd9d2f20295550da81b4def4fdd8fab487ec19d06b49",
+      "samples": 701,
+      "full_interval_min": -32.18648791,
+      "full_interval_max": 112.625187,
+      "reduced_min": -32.18648791,
+      "reduced_max": 112.625187
+    },
+    "inductive_rms_v_pu": {
+      "source_file": "runs/dynamic_inductive_v2/report/rms_cycle_envelopes.csv",
+      "source_sha256": "e3b66289600525948329363e0890d681b56876b2e37103c18fa0e4cd248c2cf9",
+      "samples": 585,
+      "full_interval_min": 0.005351562141,
+      "full_interval_max": 1.219248737,
+      "reduced_min": 0.005351562141,
+      "reduced_max": 1.219248737
+    },
+    "inductive_rms_i_ka": {
+      "source_file": "runs/dynamic_inductive_v2/report/rms_cycle_envelopes.csv",
+      "source_sha256": "e3b66289600525948329363e0890d681b56876b2e37103c18fa0e4cd248c2cf9",
+      "samples": 589,
+      "full_interval_min": 0.04589911952,
+      "full_interval_max": 0.2508600802,
+      "reduced_min": 0.04589911952,
+      "reduced_max": 0.2508600802
+    },
+    "inductive_rms_q_mvar": {
+      "source_file": "runs/dynamic_inductive_v2/report/rms_cycle_envelopes.csv",
+      "source_sha256": "e3b66289600525948329363e0890d681b56876b2e37103c18fa0e4cd248c2cf9",
+      "samples": 588,
+      "full_interval_min": -31.20902609,
+      "full_interval_max": 113.4856518,
+      "reduced_min": -31.20902609,
+      "reduced_max": 113.4856518
+    }
+  },
+  "op": {
+    "capacitive": {
+      "schema_version": 1,
+      "base_mva": 100.0,
+      "voltage_kv_ll": 230.0,
+      "frequency_hz": 60.0,
+      "voltage_pu_real": 1.0124891255489792,
+      "voltage_pu_imag": -0.10281756233591925,
+      "z1_pu_real": 0.03316790610551834,
+      "z1_pu_imag": 0.3316790759563446,
+      "boundary_p_mw": 30.000001907348633,
+      "boundary_q_mvar": -10.0,
+      "load_p_mw": 30.000001907348633,
+      "load_q_mvar": 10.0,
+      "statcom_q_mvar": 20.0,
+      "z_base_ohm": 529.0,
+      "r_ohm": 17.545822329819202,
+      "x_ohm": 175.4582311809063,
+      "l_h": 0.46541741331002934,
+      "e_pu_real": 0.9999993353602764,
+      "e_pu_imag": 2.9884019216996904e-06,
+      "source_kv_ll": 229.9998471338906,
+      "source_phase_deg": 0.00017122293140322907,
+      "pcc_voltage_pu": 1.0176962614059448,
+      "pcc_phase_deg": -5.798469066619873,
+      "rated_current_ka": 0.25102185616940254,
+      "iq_initial_pu": 0.19652229018086448,
+      "grid_current_ka": 0.0779997808288609,
+      "short_circuit_mva_nominal": 299.99998877938384,
+      "scr": 2.9999998877938383,
+      "load_r_ohm": 1826.2942337997665,
+      "load_l_h": 12.045253335700865,
+      "pcc_capacitance_f": 1.0000000000000001e-07,
+      "pcc_capacitor_q_mvar": 2.065490248671874,
+      "source_reconstruction_residual_pu": 0.0,
+      "ascc_current_pu": 3.000000144084666,
+      "ascc_current_ka": 0.7530656046766079,
+      "provenance": {
+        "engine": "PSS/E",
+        "version": [
+          "PSS(R)E                         ",
+          35,
+          6,
+          4,
+          "November 5, 2024              ",
+          "2024_11_5_2013_8aab08a0                                                                                                             "
+        ],
+        "solved_sav_sha256": "81288efefe7d90b4b90b0d9e6395968d9e1f5cc199484bfeb3309aa6750d7128",
+        "ascc_options": "1 pu prefault, rectangular, loads/shunts/charging/FACTS excluded",
+        "scope": "balanced one-port external grid; local load retained separately",
+        "integration": "sequential offline one-way handover"
+      }
+    },
+    "inductive": {
+      "schema_version": 1,
+      "base_mva": 100.0,
+      "voltage_kv_ll": 230.0,
+      "frequency_hz": 60.0,
+      "voltage_pu_real": 0.8640461989567876,
+      "voltage_pu_imag": -0.0895503843188347,
+      "z1_pu_real": 0.03316790610551834,
+      "z1_pu_imag": 0.3316790759563446,
+      "boundary_p_mw": 30.000001907348633,
+      "boundary_q_mvar": 30.000001907348633,
+      "load_p_mw": 30.000001907348633,
+      "load_q_mvar": 10.0,
+      "statcom_q_mvar": -20.0,
+      "z_base_ohm": 529.0,
+      "r_ohm": 17.545822329819202,
+      "x_ohm": 175.4582311809063,
+      "l_h": 0.46541741331002934,
+      "e_pu_real": 1.0000037969024917,
+      "e_pu_imag": 3.0464991197381996e-06,
+      "source_kv_ll": 230.0008732886404,
+      "source_phase_deg": 0.00017455087909811149,
+      "pcc_voltage_pu": 0.8686743378639222,
+      "pcc_phase_deg": -5.917051315307617,
+      "rated_current_ka": 0.25102185616940254,
+      "iq_initial_pu": -0.2302358792960337,
+      "grid_current_ka": 0.12260010013303013,
+      "short_circuit_mva_nominal": 299.99998877938384,
+      "scr": 2.9999998877938383,
+      "load_r_ohm": 1330.602617683558,
+      "load_l_h": 9.20357566770924,
+      "pcc_capacitance_f": 1.0000000000000001e-07,
+      "pcc_capacitor_q_mvar": 1.5048762027597715,
+      "source_reconstruction_residual_pu": 0.0,
+      "ascc_current_pu": 3.000000144084666,
+      "ascc_current_ka": 0.7530656046766079,
+      "provenance": {
+        "engine": "PSS/E",
+        "version": [
+          "PSS(R)E                         ",
+          35,
+          6,
+          4,
+          "November 5, 2024              ",
+          "2024_11_5_2013_8aab08a0                                                                                                             "
+        ],
+        "solved_sav_sha256": "ce3fc9963f7bfab061b57c9fb23f42d73c05dfa7682a00bdc286929b0b0822cd",
+        "ascc_options": "1 pu prefault, rectangular, loads/shunts/charging/FACTS excluded",
+        "scope": "balanced one-port external grid; local load retained separately",
+        "integration": "sequential offline one-way handover"
+      }
+    }
+  },
+  "metrics": {
+    "capacitive": {
+      "validation_passed": true,
+      "prefault_voltage_pu": 1.0176962594351968,
+      "prefault_q_mvar": 20.00000418999827,
+      "minimum_cycle_voltage_pu": 0.007268513686917081,
+      "maximum_cycle_voltage_pu": 1.5185825641932313,
+      "maximum_cycle_q_mvar": 123.29438385370136,
+      "maximum_absolute_cycle_active_power_mw": 39.1309717818747,
+      "maximum_cycle_statcom_current_ka": 0.2509417256687377,
+      "dynamic_rms_comparison_available": true
+    },
+    "inductive": {
+      "validation_passed": true,
+      "prefault_voltage_pu": 0.8686743320029433,
+      "prefault_q_mvar": -19.99998922473535,
+      "minimum_cycle_voltage_pu": 0.006914287146405359,
+      "maximum_cycle_voltage_pu": 1.4044202578240375,
+      "maximum_cycle_q_mvar": 112.62518703138494,
+      "maximum_absolute_cycle_active_power_mw": 37.22874763086766,
+      "maximum_cycle_statcom_current_ka": 0.25086850579161946,
+      "dynamic_rms_comparison_available": true
+    }
+  },
+  "dataset_sha256": "e2c1057aa3f87fad583a5008c975da0cc49fdc8f9a8d7d607d1295a333be75cb"
+}
