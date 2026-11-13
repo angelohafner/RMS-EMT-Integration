@@ -21,5 +21,5 @@ claim. The user has explicitly authorized public GitHub creation/synchronization
 - [x] Build six MathTex/Manim scenes with synchronized English narration.
 - [x] Render Full HD, subtitles and editable package; audit actual frames/audio.
 - [x] Independent engineering/visual review and corrections.
-- [ ] Create public repository, commit/push, publish video/package, verify remote.
-- [ ] Update CONTEXT.md and deliver final links.
+- [x] Create public repository, commit/push, publish video/package, verify remote.
+- [x] Update CONTEXT.md and deliver final links.

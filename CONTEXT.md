@@ -50,7 +50,14 @@ narrator. Create a public GitHub repository and synchronize the project.
 - Editable package: video/output/RMS_EMT_Manim_Editable.zip
 - The video includes synthetic English narration, actual simulation comparisons, and optional English captions.
 - Full-file decoding/timing/levels and sampled visual frames were checked; subjective listening was not certified.
-- Release publication and remote synchronization are in progress; source manifest and real engineering archive are retained.
+- Public release completed: https://github.com/angelohafner/RMS-EMT-Integration/releases/tag/video-v1.0.0
+- Release source commit: 0a65c622f5cada544587108991c57e5d3a2d58f7 (tag video-v1.0.0).
+- Eight release assets verified by remote SHA-256 and size, then read back without authentication. Details: video/publication.json.
+- Editable ZIP: 84 files, CRC and all file hashes verified; all 25 tests pass after extraction and the packaged Manim scene loads.
+- Movie SHA-256: 4cf74e7dd9870b5dcbda146f295e6412c79740044b26a08e7a008b041a1b561a.
+- Package SHA-256: 55b06d5c7d4285524094a743589ed1cfb0704a3ddeda5056a459a6b57a60d9d9.
+- All requested production and publication work is complete. The release archive is a frozen pre-publication source snapshot; this file and video/publication.json record the completed publication.
+- Main includes the release sources plus this final publication record. Use git status/log and origin/main to inspect the current synchronized revision.
 - GitHub publication uses existing authenticated access; credentials are never included in artifacts.
 
 Read this file before resuming. Update it after each meaningful milestone and
