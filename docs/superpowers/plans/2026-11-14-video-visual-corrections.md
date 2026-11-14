@@ -22,5 +22,5 @@ public release remains available; publish the revision as video-v1.1.0.
   check overlap, symbol proportions, red fault emphasis and visible recovery.
 - [x] Audit decoding, audio/timing, sample counts and provenance; run relevant
   existing tests and independent review; package the updated editable project.
-- [ ] Update README, review record and CONTEXT; publish video-v1.1.0 and verify
+- [x] Update README, review record and CONTEXT; publish video-v1.1.0 and verify
   uploaded hashes and clean Git synchronization.

@@ -1,61 +1,62 @@
 {
   "repository": "https://github.com/angelohafner/RMS-EMT-Integration",
   "public": true,
-  "release": "https://github.com/angelohafner/RMS-EMT-Integration/releases/tag/video-v1.0.0",
-  "release_id": 444841326,
-  "tag": "video-v1.0.0",
-  "source_commit": "0a65c622f5cada544587108991c57e5d3a2d58f7",
+  "release": "https://github.com/angelohafner/RMS-EMT-Integration/releases/tag/video-v1.1.0",
+  "release_id": 445253292,
+  "tag": "video-v1.1.0",
+  "source_commit": "33059b443702b818e18c4dfd2a5c73e608052f3c",
   "all_remote_asset_digests_verified": true,
   "assets": [
     {
       "name": "RMS_EMT_Integration_EN_1080p.mp4",
-      "bytes": 6574594,
-      "sha256": "4cf74e7dd9870b5dcbda146f295e6412c79740044b26a08e7a008b041a1b561a",
-      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.0.0/RMS_EMT_Integration_EN_1080p.mp4"
+      "bytes": 7292966,
+      "sha256": "4c77f2e155c4d626b171cbc1f2b54c2579231771fdd1971a7b478c97459d49c2",
+      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.1.0/RMS_EMT_Integration_EN_1080p.mp4"
     },
     {
       "name": "RMS_EMT_Manim_Editable.zip",
-      "bytes": 7905064,
-      "sha256": "55b06d5c7d4285524094a743589ed1cfb0704a3ddeda5056a459a6b57a60d9d9",
-      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.0.0/RMS_EMT_Manim_Editable.zip"
+      "bytes": 9774343,
+      "sha256": "6ccb625fe0f4cf3f156187913eb02f0e3cd707c0e8f4491c389d9d805b42fdf5",
+      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.1.0/RMS_EMT_Manim_Editable.zip"
     },
     {
       "name": "narration_en.srt",
       "bytes": 2666,
       "sha256": "9cdc938cdb5afb405adc3753ca662cf520e5e2ede30147c67bd65899b56ed952",
-      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.0.0/narration_en.srt"
+      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.1.0/narration_en.srt"
     },
     {
       "name": "audit.json",
-      "bytes": 652,
-      "sha256": "56db35b48aabad41566ad1bd22f67ff46252ac193caf574f574ada9dfce3f320",
-      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.0.0/audit.json"
+      "bytes": 2194,
+      "sha256": "59fa80b64de0dfd8af9a71b6a3f716d15a2733eb27fb6df52b537c9ac5fe88d2",
+      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.1.0/audit.json"
     },
     {
       "name": "editable_package_audit.json",
       "bytes": 210,
-      "sha256": "ce9e875ab020ec2e704057ceb3334fce823e4e24ef3aa5a92ea013a6f51e29e6",
-      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.0.0/editable_package_audit.json"
+      "sha256": "c4f4ec36a8b8c8823e3cec82653d6b7d12537457969a4c56b707611d14834736",
+      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.1.0/editable_package_audit.json"
     },
     {
       "name": "RMS_EMT_STATCOM_Dynamic_v2.zip",
       "bytes": 95619345,
       "sha256": "cfb5fd7157ef8d266d1d741299473764360ce17bb33048412006884b08f057b6",
-      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.0.0/RMS_EMT_STATCOM_Dynamic_v2.zip"
+      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.1.0/RMS_EMT_STATCOM_Dynamic_v2.zip"
     },
     {
       "name": "RMS_EMT_STATCOM_Dynamic_v2_MANIFEST.json",
       "bytes": 32476,
       "sha256": "bbc2a6284ac34e1f51fe42a30af894d46b987527c9d786b3600b22e5b82b0abc",
-      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.0.0/RMS_EMT_STATCOM_Dynamic_v2_MANIFEST.json"
+      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.1.0/RMS_EMT_STATCOM_Dynamic_v2_MANIFEST.json"
     },
     {
       "name": "SHA256SUMS.txt",
       "bytes": 657,
-      "sha256": "cd4dd946d0484549753cb21a155c24a6ff461b9ab7acae26dda96096f8ee2b85",
-      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.0.0/SHA256SUMS.txt"
+      "sha256": "d498f3800e560687c2f01fe7ace3107607a99ddf779cdce504a3ee5ee26c2d76",
+      "url": "https://github.com/angelohafner/RMS-EMT-Integration/releases/download/video-v1.1.0/SHA256SUMS.txt"
     }
   ],
   "public_read_verified_without_authentication": true,
-  "published_at": "2026-11-13T23:26:02Z"
+  "previous_release_preserved": "https://github.com/angelohafner/RMS-EMT-Integration/releases/tag/video-v1.0.0",
+  "published_at": "2026-11-14T11:40:44Z"
 }

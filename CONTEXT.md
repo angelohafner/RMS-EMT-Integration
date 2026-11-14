@@ -62,7 +62,18 @@ The user already authorized public repository creation and synchronization.
 - Final movie SHA-256: 4c77f2e155c4d626b171cbc1f2b54c2579231771fdd1971a7b478c97459d49c2.
 - Final frames checked; independent closing review found no remaining blocker.
   It rechecked all six audio correlations and the final MP4 hash.
-- Editable packaging and public release video-v1.1.0 are in progress.
+- Public release complete: https://github.com/angelohafner/RMS-EMT-Integration/releases/tag/video-v1.1.0
+- Release source commit: 33059b443702b818e18c4dfd2a5c73e608052f3c.
+- All 8 published assets verified by size and SHA-256 and read back publicly.
+  The original video-v1.0.0 release remains published and unchanged.
+- Editable ZIP: 90 files, all CRC/SHA checks passed; all 25 offline tests passed
+  after extraction. Scene/circuit modules loaded in the documented video venv.
+- Package SHA-256: 6ccb625fe0f4cf3f156187913eb02f0e3cd707c0e8f4491c389d9d805b42fdf5.
+- Local version-specific video: video/output/RMS_EMT_Integration_EN_1080p_v1_1.mp4.
+- Local version-specific editable package: video/output/RMS_EMT_Manim_Editable_v1_1.zip.
+- The archive is the audited pre-publication source snapshot. This context and
+  video/publication.json retain the completed publication record on main.
+- Requested corrections, rendering, validation and publication are complete.
 - Audio checks establish decoding, timing and levels; subjective listening is
   not certified. Real source samples do not remove one-cycle measurement filtering.
 
