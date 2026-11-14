@@ -1,64 +1,69 @@
-# RMSâ€“EMT integration: active video production
+# RMS-EMT integration: visual revision 1.1.0
 
-## Authorized objective
+## Authorized objective and current request
 
-Produce a 90â€“120 second Full HD Manim film explaining the validated sequential
-PSS/Eâ€“PSCAD workflow. All on-screen variables/equations use LaTeX MathTex with
-plain `Re()` / `Im()` (`operatorname`), never stylized real/imaginary symbols.
-Use Schemdraw circuits. English text, subtitles and an enthusiastic English
-narrator. Create a public GitHub repository and synchronize the project.
+The existing 116-second English Manim film explains the validated sequential
+PSS/E 35.6.4 to PSCAD 5.1.0 workflow. The user requested on 2026-11-14:
+1. Remove the phasor equation/axis overlap.
+2. Redraw the circuit with Schemdraw, balanced component proportions and a
+   red fault resistor with a nearby lightning bolt.
+3. Increase plotted sample density so the oscillations can be seen.
 
-## Engineering sources
+Keep English narration/captions, MathTex variables and plain Re()/Im(), real
+simulation evidence, reproducible Python sources and public GitHub sync.
+The user already authorized public repository creation and synchronization.
 
-- `docs/DYNAMIC_VALIDATION.md` and `docs/DYNAMIC_MODEL.md`.
-- `runs/dynamic_capacitive_v2`, `runs/dynamic_inductive_v2`.
-- `runs/dynamic_timestep_v2/rms_timestep_comparison.json`.
-- Native PSS/E 35.6.4 and PSCAD 5.1.0 evidence: 24 offline tests; 15 RMS and
-  15 EMT physical checks per case; both numerical refinements passed.
-- 230 kV, SCR approximately 3; nominal Â±100 MVAr averaged terminal STATCOM;
-  initial +20 / âˆ’20 MVAr; 1 ohm/phase fault at 1.00â€“1.15 s.
-- RMS/EMT control settings are matched, not identical transient models.
-  The EMT clearing-voltage transient remains materially different. No DC-link
-  energy model, PWM, manufacturer protection or full PLL. No real-time coupling.
+## Engineering boundary
 
-## Production decisions
+- Sources: docs/DYNAMIC_MODEL.md and docs/DYNAMIC_VALIDATION.md.
+- Native runs: runs/dynamic_capacitive_v2, runs/dynamic_inductive_v2 and
+  runs/dynamic_timestep_v2. No new simulations are needed for this visual fix.
+- Weak 230 kV grid, SCR approximately 3, nominal +/-100 MVAr averaged STATCOM;
+  initial +20/-20 MVAr; 1 ohm/phase fault at 1.00-1.15 s.
+- 15 RMS and 15 EMT physical checks per case, with recorded step refinements.
+- Matched terminal controls have different transient network/angle behavior.
+  Keep the material clearing-voltage difference visible. No PWM, DC-link
+  energy model, full PLL or manufacturer protection. Sequential and offline,
+  with no real-time exchange between the solvers.
 
-- Six narrated chapters: concept; phasors/waveforms; operating point and transfer;
-  circuit and fault; measured comparison; limitations and reproducibility.
-- Use the existing verified simulation data; no new solver runs are required.
-- Production files live under `video/`; separate Python environment uses installed
-  Manim 0.21.0 and isolated video dependencies.
-- Narration will be generated before animation timing; retain audio, script,
-  timing and subtitles. Final output must contain audible synchronized narration.
-- GitHub owner verified via connector: `angelohafner`. Connector has no repository
-  creation action, so use the official GitHub API for creation and Git for sync.
-- Publish project source and generated demonstration assets. Exclude local vendor
-  manual extracts, development trials, caches, environments and credentials.
+## Existing release
 
-## Progress / next actions
+- Repository: https://github.com/angelohafner/RMS-EMT-Integration
+- Preserved release: video-v1.0.0, source commit
+  0a65c622f5cada544587108991c57e5d3a2d58f7.
+- Original movie/package/audits are also copied into video/output/v1.0.0/.
+- Original licensed engineering archive remains
+  delivery/RMS_EMT_STATCOM_Dynamic_v2.zip; SHA-256
+  cfb5fd7157ef8d266d1d741299473764360ce17bb33048412006884b08f057b6.
 
-- Source validation record and toolchain inspected; Manim, FFmpeg and LaTeX exist.
-- English narration generated: Microsoft Guy Neural (passionate voice), +5% rate, +2 Hz pitch.
-- Six chapters total 116.13 s; word-timed English SRT exists.
-- Verified data reduction preserves extrema; Schemdraw open/closed circuits created.
-- Preview rendered and inspected; circuit labels and switch animation corrected.
-- Full HD movie rendered and audited: 116.099 s, 1920x1080, 30 fps; audio mean -23.8 dB / peak -3.9 dB; no decode errors.
-- Data hashes and displayed extrema verified; 25 offline tests pass.
-- Independent review found no material engineering/visual issue. Corrected the optional install command to target Python 3.11 explicitly.
-- Public repository created: https://github.com/angelohafner/RMS-EMT-Integration
-- Final movie: video/output/RMS_EMT_Integration_EN_1080p.mp4
-- Editable package: video/output/RMS_EMT_Manim_Editable.zip
-- The video includes synthetic English narration, actual simulation comparisons, and optional English captions.
-- Full-file decoding/timing/levels and sampled visual frames were checked; subjective listening was not certified.
-- Public release completed: https://github.com/angelohafner/RMS-EMT-Integration/releases/tag/video-v1.0.0
-- Release source commit: 0a65c622f5cada544587108991c57e5d3a2d58f7 (tag video-v1.0.0).
-- Eight release assets verified by remote SHA-256 and size, then read back without authentication. Details: video/publication.json.
-- Editable ZIP: 84 files, CRC and all file hashes verified; all 25 tests pass after extraction and the packaged Manim scene loads.
-- Movie SHA-256: 4cf74e7dd9870b5dcbda146f295e6412c79740044b26a08e7a008b041a1b561a.
-- Package SHA-256: 55b06d5c7d4285524094a743589ed1cfb0704a3ddeda5056a459a6b57a60d9d9.
-- All requested production and publication work is complete. The release archive is a frozen pre-publication source snapshot; this file and video/publication.json record the completed publication.
-- Main includes the release sources plus this final publication record. Use git status/log and origin/main to inspect the current synchronized revision.
-- GitHub publication uses existing authenticated access; credentials are never included in artifacts.
+## Revision decisions and progress
 
-Read this file before resuming. Update it after each meaningful milestone and
-record the final repository URL, commit, artifact paths and remaining limitations.
+- Existing Guy Neural English narration and SRT remain unchanged.
+- Phasor axes moved above a separate equation band.
+- video/circuit.py now generates proportional IEEE components, aligned branches,
+  fixed switch contacts, a red fault resistor and a Schemdraw lightning polygon.
+  Coordinate metadata positions the MathTex labels consistently.
+- Compact dataset replaced with every original row in 0.8-1.4 s: 30,001 samples
+  per EMT curve and 1,202 per RMS curve. All 12 curves were independently checked
+  against every source CSV row. No result values are synthesized.
+- Result scene shows the fault overview followed by a 1.15-1.26 s time zoom;
+  RMS curves are dashed to distinguish the closely tracking traces.
+- Phasor/circuit/overview/zoom previews were visually checked; independent review
+  verified all source samples and corrected the capacitor/highlight margin.
+- Full-HD review caught Manim cache suppressing add_sound() after chapter 1.
+  Final audio now comes from six original MP3s mixed by FFmpeg at absolute
+  timeline offsets. The audit checks the complete stream and compares each
+  decoded chapter against its original audio (correlation >=0.97).
+- Transitions use whole-frame play durations and absolute chapter timing.
+  Caption changes fade instead of morphing letters; the plot pointer is smaller.
+- Final movie/audio audit passed: 116.132688 s, 1080p30, no decode errors.
+  All 6 speech chapters present/aligned, source correlations >0.99998;
+  mean audio -20.8 dB, peak -0.8 dB. All scene endpoints match their schedule.
+- Final movie SHA-256: 4c77f2e155c4d626b171cbc1f2b54c2579231771fdd1971a7b478c97459d49c2.
+- Final frames checked; independent closing review found no remaining blocker.
+  It rechecked all six audio correlations and the final MP4 hash.
+- Editable packaging and public release video-v1.1.0 are in progress.
+- Audio checks establish decoding, timing and levels; subjective listening is
+  not certified. Real source samples do not remove one-cycle measurement filtering.
+
+Read this file before resuming and update it at production/publication milestones.

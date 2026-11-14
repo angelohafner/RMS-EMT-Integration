@@ -1,0 +1,32 @@
+[
+  {
+    "chapter": 1,
+    "requested_end_s": 18.433333333333334,
+    "rendered_end_s": 18.433333333333323
+  },
+  {
+    "chapter": 2,
+    "requested_end_s": 38.1,
+    "rendered_end_s": 38.100000000000186
+  },
+  {
+    "chapter": 3,
+    "requested_end_s": 57.233333333333334,
+    "rendered_end_s": 57.23333333333335
+  },
+  {
+    "chapter": 4,
+    "requested_end_s": 75.66666666666667,
+    "rendered_end_s": 75.66666666666657
+  },
+  {
+    "chapter": 5,
+    "requested_end_s": 96.13333333333334,
+    "rendered_end_s": 96.13333333333308
+  },
+  {
+    "chapter": 6,
+    "requested_end_s": 116.13333333333334,
+    "rendered_end_s": 116.1333333333331
+  }
+]

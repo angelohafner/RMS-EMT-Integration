@@ -10,7 +10,7 @@ Actual execution evidence: [original validation record](docs/VALIDATION.md) and
 [native dynamic validation](docs/DYNAMIC_VALIDATION.md).
 
 **Narrated Manim film:** [watch/download the 116-second Full HD video and editable
-package](https://github.com/angelohafner/RMS-EMT-Integration/releases/tag/video-v1.0.0).
+package](https://github.com/angelohafner/RMS-EMT-Integration/releases/tag/video-v1.1.0).
 The [video instructions](video/README.md) include independent rendering without
 simulator licenses. English narration, captions, Schemdraw circuits and MathTex
 variables are included. [CONTEXT.md](CONTEXT.md) preserves the project decisions.

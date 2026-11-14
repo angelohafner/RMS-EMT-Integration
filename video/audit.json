@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "duration_s": 116.099349,
+  "duration_s": 116.132688,
   "resolution": [
     1920,
     1080
@@ -9,12 +9,71 @@
   "audio_codec": "aac",
   "voice": "en-US-GuyNeural",
   "narration": "AI-generated English, passionate voice profile",
-  "mean_volume_db": -23.8,
-  "max_volume_db": -3.9,
+  "audio_duration_s": 116.132688,
+  "narration_chapters": [
+    {
+      "id": "01_concept",
+      "source_audio_correlation": 0.9999924766212303,
+      "present_and_aligned": true
+    },
+    {
+      "id": "02_resolution",
+      "source_audio_correlation": 0.9999898667173074,
+      "present_and_aligned": true
+    },
+    {
+      "id": "03_transfer",
+      "source_audio_correlation": 0.9999928580488819,
+      "present_and_aligned": true
+    },
+    {
+      "id": "04_fault",
+      "source_audio_correlation": 0.9999918669852665,
+      "present_and_aligned": true
+    },
+    {
+      "id": "05_results",
+      "source_audio_correlation": 0.9999933195977628,
+      "present_and_aligned": true
+    },
+    {
+      "id": "06_limits",
+      "source_audio_correlation": 0.9999924356630737,
+      "present_and_aligned": true
+    }
+  ],
+  "mean_volume_db": -20.8,
+  "max_volume_db": -0.8,
   "data_provenance_verified": true,
   "extrema_preserved": true,
   "decode_errors": 0,
   "subtitles": "English word-timed SRT and optional MP4 subtitle track",
-  "video_sha256": "4cf74e7dd9870b5dcbda146f295e6412c79740044b26a08e7a008b041a1b561a",
+  "revision": "1.1.0",
+  "plot_windows_s": [
+    [
+      0.8,
+      1.4
+    ],
+    [
+      1.15,
+      1.26
+    ]
+  ],
+  "display_sample_counts": {
+    "capacitive_emt_v_pu": 30001,
+    "capacitive_emt_i_ka": 30001,
+    "capacitive_emt_q_mvar": 30001,
+    "capacitive_rms_v_pu": 1202,
+    "capacitive_rms_i_ka": 1202,
+    "capacitive_rms_q_mvar": 1202,
+    "inductive_emt_v_pu": 30001,
+    "inductive_emt_i_ka": 30001,
+    "inductive_emt_q_mvar": 30001,
+    "inductive_rms_v_pu": 1202,
+    "inductive_rms_i_ka": 1202,
+    "inductive_rms_q_mvar": 1202
+  },
+  "display_sampling": "Every original output row in the plotted interval; no added interpolation.",
+  "video_sha256": "4c77f2e155c4d626b171cbc1f2b54c2579231771fdd1971a7b478c97459d49c2",
   "subjective_listening": "Not certified by automated checks; original speech and review preview are supplied."
 }

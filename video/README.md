@@ -5,6 +5,11 @@ A 116-second, 1920 × 1080, 30 fps film based on the actual licensed PSS/E
 using Microsoft `en-US-GuyNeural`, with a passionate voice profile, +5% rate
 and +2 Hz pitch. English captions are supplied as SRT and an optional MP4 track.
 
+Revision 1.1.0 separates the phasor equation from its axes, redraws the circuit
+with proportional symbols and a red fault resistor/lightning bolt, and shows all
+available plot samples with a clearing/recovery zoom. The original 1.0.0 release
+remains available in GitHub Releases.
+
 The film covers a weak 230 kV grid, a nominal ±100 MVAr STATCOM, the transfer
 of the solved PCC boundary and Thévenin impedance, and a 150 ms three-phase
 fault. It shows the capacitive operating point (+20 MVAr initially). The
@@ -21,7 +26,7 @@ and [actual comparison tables](../docs/DYNAMIC_VALIDATION.md).
 
 ## Watch and download
 
-[Published video and editable package](https://github.com/angelohafner/RMS-EMT-Integration/releases/tag/video-v1.0.0).
+[Published video and editable package](https://github.com/angelohafner/RMS-EMT-Integration/releases/tag/video-v1.1.0).
 The release also supplies the original engineering package containing the native
 simulation evidence. This source repository includes the compact plot data,
 recorded speech, subtitles and circuit SVGs so that rendering requires neither
@@ -78,9 +83,12 @@ video/.venv/Scripts/python.exe -m pip install -e .
 video/.venv/Scripts/python.exe video/data_pipeline.py
 ```
 
-The script verifies native run hashes, reads the actual processed CSVs, retains
-minima and maxima while reducing display samples, and regenerates the Schemdraw
-open/closed circuits. Missing runs or altered evidence raise errors; there is
+The script verifies native run hashes and reads the actual processed CSVs.
+Revision 1.1.0 retains every row over 0.8–1.4 s: 30,001 samples per EMT curve
+and 1,202 per RMS curve. It adds a 1.15–1.26 s clearing/recovery zoom, with
+dashed RMS curves. No extra samples are interpolated for display. The existing
+one-cycle measurement definitions remain unchanged. It also regenerates the
+Schemdraw open/closed circuits using `circuit.py`. Missing runs or altered evidence raise errors; there is
 no synthetic-results fallback. To run new simulations, follow the
 [engineering instructions](../README.md). New runs must be revalidated and
 their manifests deliberately updated before replacing the released plot data.
@@ -93,18 +101,25 @@ their manifests deliberately updated before replacing the released plot data.
 | `script.json`, `timeline.json` | English narration and audio-driven timing |
 | `audio/*.mp3`, `audio/*.words.json` | Released speech and word timestamps |
 | `narrate.py`, `narration_en.srt` | Optional speech regeneration and captions |
-| `data_pipeline.py` | Native-data verification, display reduction, Schemdraw SVG |
+| `data_pipeline.py` | Native-data verification and complete display samples |
+| `circuit.py`, `assets/circuit_layout.json` | Proportional Schemdraw symbols, red fault/bolt and label coordinates |
+| `preview.py` | Individual phasor/circuit/results preview scenes |
 | `assets/measurements.npz`, `assets/provenance.json` | Real curves and source hashes |
 | `assets/circuit*.svg` | Schemdraw circuit states; labels are rendered with MathTex |
-| `finalize.py` | Subtitle muxing, technical audit and review frames |
+| `finalize.py` | Six-clip audio assembly, subtitle muxing, technical audit and review frames |
 | `package.py` | Editable ZIP with audited movie and per-file hash verification |
 | `audit.json`, `REVIEW.md` | Released technical checks and bounded review |
 
 Real/imaginary parts use `\operatorname{Re}` and `\operatorname{Im}`. Electrical
 variables, equations and units use MathTex. Plain English prose uses normal text.
 
+The finalizer assembles all six recorded speech clips at their timeline offsets,
+independently of the Manim animation cache. It checks the final audio stream
+duration and compares the decoded audio of every chapter with its original MP3
+(correlation at least 0.97), catching omitted, truncated or misaligned narration.
+
 The audit checks full-file decoding, resolution, frame rate, timing, audio level,
-source-data hashes and preserved extrema. Review frames cover all six chapters.
+source-data hashes, complete sample counts and preserved extrema. Review frames cover all six chapters.
 Automated audio-level and timing checks do not certify subjective pronunciation
 or listening quality. The narration files are included for direct listening.
 

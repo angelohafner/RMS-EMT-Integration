@@ -33,36 +33,24 @@ def main():
             path=run/filename;a=np.genfromtxt(path,delimiter=',',names=True)
             mask=(a['time_s']>=.8)&(a['time_s']<=1.4)
             for key in ['v_pu','i_ka','q_mvar']:
-                t,y=extrema_reduce(a['time_s'][mask],a[key][mask])
+                # Keep every recorded row: no display decimation or invented samples.
+                t,y=a['time_s'][mask],a[key][mask]
                 ident=f'{case}_{engine}_{key}';data[ident+'_t']=t;data[ident]=y
                 provenance['curves'][ident]={'source_file':str(path.relative_to(ROOT)).replace('\\','/'),
                     'source_sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'samples':len(t),
+                    'source_interval_samples':int(mask.sum()),'selection':'all original rows in [0.8, 1.4] s',
+                    'median_output_step_s':float(np.median(np.diff(t))),
                     'full_interval_min':float(a[key][mask].min()),'full_interval_max':float(a[key][mask].max()),
                     'reduced_min':float(y.min()),'reduced_max':float(y.max())}
                 if y.max()!=a[key][mask].max() or y.min()!=a[key][mask].min():raise ValueError('Reducer lost an extremum.')
     np.savez_compressed(assets/'measurements.npz',**data)
     provenance['dataset_sha256']=hashlib.sha256((assets/'measurements.npz').read_bytes()).hexdigest()
     (assets/'provenance.json').write_text(json.dumps(provenance,indent=2),encoding='utf8')
-    import schemdraw
-    import schemdraw.elements as elm
-    schemdraw.use('svg')
-    for closed,filename in [(False,'circuit.svg'),(True,'circuit_closed.svg')]:
-      with schemdraw.Drawing(show=False) as drawing:
-        drawing.config(unit=2,color='#dbe7f3',lw=2.5)
-        drawing+=elm.SourceSin().at((0,0)).up().length(2.4)
-        drawing+=elm.Resistor().right().length(2.4)
-        drawing+=elm.Inductor().right().length(2.4)
-        drawing+=elm.Line().right().length(6.)
-        drawing+=elm.Line().at((0,0)).to((10.8,0))
-        drawing+=elm.Dot().at((4.8,2.4))
-        drawing+=elm.SourceI().at((4.8,0)).up().length(2.4)
-        drawing+=elm.Resistor().at((6.5,2.4)).down().length(2.4)
-        drawing+=elm.Inductor().at((7.8,2.4)).down().length(2.4)
-        drawing+=elm.Capacitor().at((9.1,2.4)).down().length(2.4)
-        drawing+=elm.Switch(nc=closed,contacts=False).at((10.8,2.4)).down().length(1.1)
-        drawing+=elm.Resistor().down().length(1.3)
-        drawing+=elm.Ground().at((0,0))
-        drawing.save(assets/filename)
+    if __package__:
+        from .circuit import generate_circuits
+    else:
+        from circuit import generate_circuits
+    generate_circuits(assets)
     print('Verified display data and Schemdraw circuit prepared.')
 
 
