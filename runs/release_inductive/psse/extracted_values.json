@@ -1,0 +1,14 @@
+{
+  "base_mva": 100.0,
+  "voltage_kv_ll": 230.0,
+  "frequency_hz": 60.0,
+  "voltage_pu_real": 0.8640461989567876,
+  "voltage_pu_imag": -0.0895503843188347,
+  "z1_pu_real": 0.03316790610551834,
+  "z1_pu_imag": 0.3316790759563446,
+  "boundary_p_mw": 30.000001907348633,
+  "boundary_q_mvar": 30.000001907348633,
+  "load_p_mw": 30.000001907348633,
+  "load_q_mvar": 10.0,
+  "statcom_q_mvar": -20.0
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "started_utc": "2026-11-13T22:45:51.778273+00:00",
+  "integration": "sequential offline; native RMS versus previously executed native EMT",
+  "config_sha256": "28c80682c175ee3fc76049a865311a7f35d381cf414e5354943f0e7dbd9cfe2e",
+  "source_run_manifest_sha256": "62c263cebc185b6144f78325ca895f050d4ddf2f68fd3fd573aa1d45687fc3da",
+  "stages": {
+    "psse": "completed",
+    "pscad": "completed",
+    "rms": "completed",
+    "report": "completed"
+  },
+  "file_hashes": {
+    "psse/operating_point.json": "fc349e31a4375b1899e67a41f7699812633f6db65180180404c35e2322b7a7c8",
+    "pscad/provenance.json": "d76dcc3256c745b10f5a22ef0e28b708838b526699ddd26b1a02a68cb54109db",
+    "rms/metadata.json": "8816db72480923339ece37799a712513be929b2f75436030a2a0ddfe4cf16810"
+  },
+  "metrics": {
+    "validation_passed": true,
+    "prefault_voltage_pu": 0.8686743320029433,
+    "prefault_q_mvar": -19.99998922473535,
+    "minimum_cycle_voltage_pu": 0.006914287146405359,
+    "maximum_cycle_voltage_pu": 1.4044202578240375,
+    "maximum_cycle_q_mvar": 112.62518703138494,
+    "maximum_absolute_cycle_active_power_mw": 37.22874763086766,
+    "maximum_cycle_statcom_current_ka": 0.25086850579161946,
+    "dynamic_rms_comparison_available": true
+  },
+  "finished_utc": "2026-11-13T22:49:10.240370+00:00"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Native RMS full duration",
+    "passed": true,
+    "detail": "End 2.00044632 s"
+  },
+  {
+    "name": "RMS pre-fault voltage match",
+    "passed": true,
+    "detail": "1.01769626 pu"
+  },
+  {
+    "name": "RMS pre-fault Q match",
+    "passed": true,
+    "detail": "20.0000038 MVAr"
+  },
+  {
+    "name": "RMS pre-fault equilibrium",
+    "passed": true,
+    "detail": "No initialization drift"
+  },
+  {
+    "name": "Native current limit",
+    "passed": true,
+    "detail": "Peak 0.99978137 pu"
+  },
+  {
+    "name": "Native Q equals V times reactive current",
+    "passed": false,
+    "detail": "Max residual 126.14 MVAr"
+  },
+  {
+    "name": "Fault causes deep voltage sag",
+    "passed": true,
+    "detail": "Fault interior 0.00536278707 pu"
+  },
+  {
+    "name": "Fault drives capacitive current",
+    "passed": true,
+    "detail": "Fault interior 0.983375406 pu"
+  },
+  {
+    "name": "Actual fault application time",
+    "passed": true,
+    "detail": "{'event': 'apply', 'requested_time_s': 1.0, 'actual_time_s': 1.0000187158584595}"
+  },
+  {
+    "name": "Actual fault duration",
+    "passed": true,
+    "detail": "0.149989128 s"
+  },
+  {
+    "name": "Post-fault voltage recovery",
+    "passed": false,
+    "detail": "1.00922561 pu"
+  },
+  {
+    "name": "Initialized proportional-controller bias",
+    "passed": true,
+    "detail": "Bias 0.19652234; expected 0.19652229 pu"
+  }
+]

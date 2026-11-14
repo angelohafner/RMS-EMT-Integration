@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "grid": {
+    "base_mva": 100.0,
+    "voltage_kv_ll": 230.0,
+    "frequency_hz": 60.0,
+    "short_circuit_mva": 300.0,
+    "xr_ratio": 10.0,
+    "slack_voltage_pu": 1.0
+  },
+  "load": {
+    "p_mw": 30.0,
+    "q_mvar": 10.0,
+    "capacitance_nf": 100.0
+  },
+  "statcom": {
+    "rating_mvar": 100.0,
+    "q_initial_mvar": 20.0,
+    "droop_pu": 0.05,
+    "current_tau_s": 0.02,
+    "voltage_floor_pu": 0.05,
+    "enable_time_s": 0.3
+  },
+  "fault": {
+    "start_s": 1.0,
+    "duration_s": 0.15,
+    "resistance_ohm": 1.0
+  },
+  "simulation": {
+    "duration_s": 2.0,
+    "time_step_us": 10.0,
+    "sample_step_us": 100.0,
+    "prefault_window_s": [
+      0.8,
+      0.95
+    ],
+    "timeout_s": 600
+  },
+  "psse": {
+    "python_path": "C:/Program Files/PTI/PSSE35/35.6/PSSPY311",
+    "case_path": null,
+    "pcc_bus": 2,
+    "grid_bus": 1,
+    "boundary_circuit": "1",
+    "load_id": "LD",
+    "statcom_load_id": "ST"
+  },
+  "pscad": {
+    "version": "5.1.0",
+    "compiler": "GFortran 13.2 (64-bit)"
+  },
+  "comparison": {
+    "rms_csv": null,
+    "rms_metadata": null,
+    "prefault_voltage_tolerance_pu": 0.01,
+    "prefault_q_tolerance_mvar": 1.0
+  }
+}

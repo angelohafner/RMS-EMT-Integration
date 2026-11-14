@@ -1,0 +1,14 @@
+{
+  "engine": "PSCAD/EMTDC",
+  "version": "5.1.0",
+  "automation_library": "3.1.2",
+  "compiler": "GFortran 13.2 (64-bit)",
+  "operating_point_sha256": "0d73e0f820a75c76e454f6bbac98de25c351afe10b8d1df4bcdb9ba84d532288",
+  "project_sha256": "7c2668c1587e522aa168b4178c1b14fa630655e296fd53f4f86e66d3fc7edfd8",
+  "model": "averaged reactive current injection, 100 MVAr nominal; no PWM/DC-link/vendor control",
+  "raw_files": {
+    "emt.inf": "12209e25106b4aa5cf8f6833ac790c395af9c3526e674431456aadc4531f0333",
+    "emt_01.out": "7ad51f2a73299ba882d458dfbee23900b4b6549aae8af24e8670e03f24593210",
+    "emt_02.out": "261776592558900c73c8d7bda90b846dc2a9e7786d53b1b776701b3ccd6df882"
+  }
+}

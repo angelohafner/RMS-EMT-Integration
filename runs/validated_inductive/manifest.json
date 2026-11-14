@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "started_utc": "2026-11-13T21:33:16.977382+00:00",
+  "status": "passed",
+  "python": "3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]",
+  "config_sha256": "816bfe61e0addacf380b5e065f9831613e874a2ecbe59b8fe898eef2a5ddb773",
+  "integration": "sequential offline one-way",
+  "stages": {
+    "psse": "completed",
+    "pscad": "completed",
+    "report": "completed"
+  },
+  "file_hashes": {
+    "psse/operating_point.json": "1a74c291dadf2f325c4199730a2edbc9f41efa9c619a450b0feeb3621512423f",
+    "pscad/provenance.json": "d3fb3e35812b9cf2c0fbe1a32e878a7e7695351030322ffef9079510af196d13"
+  },
+  "metrics": {
+    "validation_passed": true,
+    "prefault_voltage_pu": 0.8686742799617022,
+    "prefault_q_mvar": -19.99989768966235,
+    "minimum_cycle_voltage_pu": 0.006902551751914491,
+    "maximum_cycle_voltage_pu": 1.4541009040938149,
+    "maximum_cycle_q_mvar": 112.23380761326233,
+    "maximum_absolute_cycle_active_power_mw": 35.943512385500085,
+    "maximum_cycle_statcom_current_ka": 0.2508687279513231,
+    "dynamic_rms_comparison_available": false
+  },
+  "finished_utc": "2026-11-13T21:35:52.438887+00:00"
+}

@@ -78,3 +78,15 @@ The user already authorized public repository creation and synchronization.
   not certified. Real source samples do not remove one-cycle measurement filtering.
 
 Read this file before resuming and update it at production/publication milestones.
+
+## Native case synchronization, 2026-11-14
+
+The user requested that the local PSS/E and PSCAD files also be available
+directly in GitHub. The old `runs/` ignore rule excluded every native case.
+The rules now include native cases and small configuration/provenance records,
+while output traces and build products remain release assets. All 58 native
+files and 141 supporting JSON records are included at their original paths.
+`runs/README.md` identifies the three current dynamic v2 cases and distinguishes
+earlier study stages. `docs/NATIVE_MODELS_MANIFEST.json` records the exact bytes
+selected for synchronization. This change does not rerun the simulators or
+modify the existing models, simulation results, releases or delivery archives.

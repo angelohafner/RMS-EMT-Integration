@@ -4,7 +4,32 @@ __pycache__/
 *.egg-info/
 .venv/
 evidence/
-runs/
+# Keep native simulator cases and their configuration/provenance in Git.
+# Large output traces, reports and compiler products remain release assets.
+/runs/**
+!/runs/**/
+!/runs/README.md
+!/runs/**/*.pscx
+!/runs/**/*.pswx
+!/runs/**/*.sav
+!/runs/**/*.raw
+!/runs/**/*.dyr
+!/runs/**/*.snp
+!/runs/**/*.seq
+!/runs/**/*.sld
+!/runs/**/*.idv
+!/runs/**/config.json
+!/runs/**/source_config.json
+!/runs/**/manifest.json
+!/runs/**/operating_point.json
+!/runs/**/extracted_values.json
+!/runs/**/provenance.json
+!/runs/**/metadata.json
+!/runs/**/events.json
+!/runs/**/initialization.json
+!/runs/**/channel_map.json
+!/runs/**/checks.json
+!/runs/**/rms_checks.json
 *.gf*/
 *.if*/
 delivery/*.zip

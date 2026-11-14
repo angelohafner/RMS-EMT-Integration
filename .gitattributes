@@ -3,3 +3,7 @@
 *.npz binary
 *.png binary
 *.zip binary
+# Preserve original simulator files and the bytes covered by run receipts.
+/runs/** -text whitespace=cr-at-eol
+*.sav binary
+*.snp binary

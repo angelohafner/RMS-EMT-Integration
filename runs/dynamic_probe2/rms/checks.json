@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Native RMS full duration",
+    "passed": true,
+    "detail": "End 2.00044632 s"
+  },
+  {
+    "name": "RMS pre-fault voltage match",
+    "passed": true,
+    "detail": "1.01769602 pu"
+  },
+  {
+    "name": "RMS pre-fault Q match",
+    "passed": true,
+    "detail": "19.9999209 MVAr"
+  },
+  {
+    "name": "RMS pre-fault equilibrium",
+    "passed": true,
+    "detail": "No initialization drift"
+  },
+  {
+    "name": "Native current limit",
+    "passed": true,
+    "detail": "Peak 0.999786794 pu"
+  },
+  {
+    "name": "Native Q equals V times reactive current",
+    "passed": true,
+    "detail": "Max residual 0.000237145 MVAr"
+  },
+  {
+    "name": "Fault causes deep voltage sag",
+    "passed": true,
+    "detail": "Fault interior 0.00536278712 pu"
+  },
+  {
+    "name": "Fault drives capacitive current",
+    "passed": true,
+    "detail": "Fault interior 0.983375346 pu"
+  },
+  {
+    "name": "Actual fault application time",
+    "passed": true,
+    "detail": "{'event': 'apply', 'requested_time_s': 1.0, 'actual_time_s': 1.0000187158584595}"
+  },
+  {
+    "name": "Actual fault duration",
+    "passed": true,
+    "detail": "0.149989128 s"
+  },
+  {
+    "name": "Post-fault voltage recovery",
+    "passed": true,
+    "detail": "1.01769674 pu"
+  },
+  {
+    "name": "Initialized proportional-controller reference",
+    "passed": true,
+    "detail": "Zero integrator; Vref 1.02752233 pu"
+  }
+]

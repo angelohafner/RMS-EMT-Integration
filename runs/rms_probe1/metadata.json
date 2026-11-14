@@ -1,0 +1,51 @@
+{
+  "source_engine": "PSS/E",
+  "model": "SVSMO3T2",
+  "version": [
+    "PSS(R)E                         ",
+    35,
+    6,
+    4,
+    "November 5, 2024              ",
+    "2024_11_5_2013_8aab08a0                                                                                                             "
+  ],
+  "equivalent_to_emt": true,
+  "equivalence_scope": "matched averaged terminal controller and fundamental-frequency network; documented differences remain",
+  "quantity_location": "STATCOM injection at PCC",
+  "q_sign": "positive injection",
+  "frequency_hz": 60.0,
+  "voltage_kv_ll": 230.0,
+  "fault": {
+    "start_s": 1.0,
+    "duration_s": 0.15,
+    "resistance_ohm": 1.0
+  },
+  "time_step_s": 0.0005,
+  "csv_sha256": "991eb34bb877b45a94c49992ddbc1841a293d0d0db6635a461d11ca8dab67ac8",
+  "operating_point_sha256": "7d7f89cfe9a40fc95a14f7272efcf611f20dd95915e3447c511613aa532a220c",
+  "model_equivalence_notes": [
+    "Native SVSMO3T2: Kp=1/droop, Ki=0, Xc0=0; initialized integral state is the constant Iq0 bias.",
+    "10 ms scalar voltage filter; 20 ms output lag; +/-1 pu current limit on the same rating/base.",
+    "GENCLS H=0 holds internal source voltage and frequency; source plus branch impedance matches the extracted Z1.",
+    "Local passive load converted to constant admittance, equal to the EMT parallel RLC at nominal frequency.",
+    "Same PCC fault, resistance in ohms and requested application/clearing times; actual event times recorded.",
+    "MSS, slow reset, deadband and nonlinear droop disabled; protection thresholds lie outside this run range.",
+    "RMS scalar voltage and instantaneous phasor orientation differ from EMT filtered dq voltage and angle hold.",
+    "RMS algebraic network has no subcycle inductive/capacitive energy transient; EMT retains RLC energy.",
+    "RMS is initialized at the operating point; EMT energization/enable at startup is excluded from comparisons.",
+    "Neither model includes switching, DC energy, detailed PLL or equipment protection; equivalence is bounded to terminal controls."
+  ],
+  "physical_checks_passed": false,
+  "artifacts": {
+    "channels.csv": "991eb34bb877b45a94c49992ddbc1841a293d0d0db6635a461d11ca8dab67ac8",
+    "channel_map.json": "aa7b635275dfbbfc2fc01053ce083bcfb2892d2f1e7bf829bf728fa70c8f1ffd",
+    "checks.json": "bcf9fa270048b3b4f07402c955ece570b83615f1b6973a128b123b837087b89b",
+    "dynamics.outx": "17be3a9915747e6c8128f0183cd3c9d68c242dd004abd4df3fde577fa9e502a8",
+    "dynamic_powerflow.sav": "ce63a7dfeb911c7f9b5c06b84808fed7ea4a32b1b4b4341c73589a569b4b8b64",
+    "events.json": "10f93d8c5ad9c20328ae3bed6481ede6ccbef31b8574bf960c27cf8a935319d2",
+    "initialization.json": "cfb14e600b2e48115326546f78551a6f5031ba19c65aa79f028839cb2e4a6047",
+    "initialized.snp": "5e8c008df6c523c54f6a7e3d1deb4de6a0e64f20e9c9180a27012e77cffd6c66",
+    "psse_dynamic.log": "4effe7aae211963e8f6e044f951929360943b44da4474c4cddb5fa4c3ce7960b",
+    "statcom.dyr": "3fe1d20e81d1d9a160f8fcf8cca93b5caab37660cb7ee02799285d8824385a1c"
+  }
+}

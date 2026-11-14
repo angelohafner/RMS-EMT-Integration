@@ -1,0 +1,12 @@
+[
+  {
+    "event": "apply",
+    "requested_time_s": 1.0,
+    "actual_time_s": 1.0000187158584595
+  },
+  {
+    "event": "clear",
+    "requested_time_s": 1.15,
+    "actual_time_s": 1.1500078439712524
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Native RMS full duration",
+    "passed": true,
+    "detail": "End 2 s"
+  },
+  {
+    "name": "RMS pre-fault voltage match",
+    "passed": true,
+    "detail": "1.01769614 pu"
+  },
+  {
+    "name": "RMS pre-fault Q match",
+    "passed": true,
+    "detail": "19.9999538 MVAr"
+  },
+  {
+    "name": "RMS pre-fault equilibrium",
+    "passed": true,
+    "detail": "No initialization drift"
+  },
+  {
+    "name": "Native current limit",
+    "passed": true,
+    "detail": "Peak 0.999784648 pu"
+  },
+  {
+    "name": "Native Q equals V times reactive current",
+    "passed": true,
+    "detail": "Max residual 0.000244447 MVAr"
+  },
+  {
+    "name": "Fault voltage respects network/current bound",
+    "passed": true,
+    "detail": "Peak interior 0.00551452115 pu; bound 0.00755290698 pu"
+  },
+  {
+    "name": "Configured native current lag",
+    "passed": true,
+    "detail": "Max residual 0.00255842 pu; limit 0.025"
+  },
+  {
+    "name": "Actual fault application time",
+    "passed": true,
+    "detail": "{'event': 'apply', 'requested_time_s': 1.0, 'actual_time_s': 1.0}"
+  },
+  {
+    "name": "Actual fault duration",
+    "passed": true,
+    "detail": "0.149999976 s"
+  },
+  {
+    "name": "Post-fault voltage recovery",
+    "passed": true,
+    "detail": "1.01769495 pu"
+  },
+  {
+    "name": "Initialized proportional-controller reference",
+    "passed": true,
+    "detail": "Zero integrator; Vref 1.02752233 pu"
+  },
+  {
+    "name": "Inactive integral state remains zero",
+    "passed": true,
+    "detail": "Peak 0 pu"
+  },
+  {
+    "name": "Native controller follows matched droop law",
+    "passed": true,
+    "detail": "Max command residual 0 pu"
+  },
+  {
+    "name": "Actual resistive fault power balance",
+    "passed": true,
+    "detail": "Max residual 0.000129256 MW"
+  }
+]

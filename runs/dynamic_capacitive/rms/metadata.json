@@ -1,0 +1,52 @@
+{
+  "source_engine": "PSS/E",
+  "model": "SVSMO3T2",
+  "version": [
+    "PSS(R)E                         ",
+    35,
+    6,
+    4,
+    "November 5, 2024              ",
+    "2024_11_5_2013_8aab08a0                                                                                                             "
+  ],
+  "equivalent_to_emt": true,
+  "equivalence_scope": "matched averaged terminal controller and fundamental-frequency network; documented differences remain",
+  "quantity_location": "STATCOM injection at PCC",
+  "q_sign": "positive injection",
+  "frequency_hz": 60.0,
+  "voltage_kv_ll": 230.0,
+  "fault": {
+    "start_s": 1.0,
+    "duration_s": 0.15,
+    "resistance_ohm": 1.0
+  },
+  "time_step_s": 0.0005,
+  "csv_sha256": "daa7ac5db6efccdcefb8b3f1f3f4a94a9b5822b6ecce88200d6d08f407e2d358",
+  "operating_point_sha256": "7d7f89cfe9a40fc95a14f7272efcf611f20dd95915e3447c511613aa532a220c",
+  "model_equivalence_notes": [
+    "Native SVSMO3T2: Kp=1/droop, Ki=0, Xc0=0. Before RUN only, move Iq0 into Vref=Vop+droop*Iq0 and zero the inactive integral state/derivative/memory. This preserves the initial command and avoids the native limiter resetting the bias.",
+    "10 ms scalar voltage filter; 20 ms output lag; +/-1 pu current limit on the same rating/base.",
+    "GENCLS H=0 holds internal source voltage and frequency; source plus branch impedance matches the extracted Z1.",
+    "Local passive load converted to constant admittance, equal to the EMT parallel RLC at nominal frequency.",
+    "Same PCC fault, resistance in ohms and requested application/clearing times; actual event times recorded.",
+    "MSS, slow reset, deadband and nonlinear droop disabled; protection thresholds lie outside this run range.",
+    "RMS scalar voltage and instantaneous phasor orientation differ from EMT filtered dq voltage and angle hold.",
+    "RMS Q is derived from simultaneous native network FLOW1 Q plus the constant-admittance load Q; the model Q VAR can lag voltage at events and is retained separately in the CSV/OUTX.",
+    "RMS algebraic network has no subcycle inductive/capacitive energy transient; EMT retains RLC energy.",
+    "RMS is initialized at the operating point; EMT energization/enable at startup is excluded from comparisons.",
+    "Neither model includes switching, DC energy, detailed PLL or equipment protection; equivalence is bounded to terminal controls."
+  ],
+  "physical_checks_passed": true,
+  "artifacts": {
+    "channels.csv": "daa7ac5db6efccdcefb8b3f1f3f4a94a9b5822b6ecce88200d6d08f407e2d358",
+    "channel_map.json": "dc46db8daaa59c91a7a31c1bd5ff85010b5ca3f2bfce45bafb9b3d7c5f234ea4",
+    "checks.json": "ef905ee1d390861fd7a546c89853aab8295e2910c9332918c83fe1f0bf21ef9b",
+    "dynamics.outx": "33e2451036ad59c3b49e149ae4da776127c0f801f85f2b6a65f2b0564d9258fd",
+    "dynamic_powerflow.sav": "3c80524eb0173db8b37c5947b21a3a14286bfba2418e5b0523c3d6a46ad5403e",
+    "events.json": "10f93d8c5ad9c20328ae3bed6481ede6ccbef31b8574bf960c27cf8a935319d2",
+    "initialization.json": "35201e2ed01f1d7ecf4985335382149bae0e656bd853b2f9ee4baeb17ac6f5a9",
+    "initialized.snp": "d3c02409b5d0209ba0e951cc277e70ef96e731a8ea350d7a06eb1a4ffb46661c",
+    "psse_dynamic.log": "8e1d7b8a598158f2d1eedb21869e7cd190eedcbf624075820d013298b1930e11",
+    "statcom.dyr": "a378550ff375ece7ec3f6d6ec85fef825351ec017432574dd2c3f7676e663d44"
+  }
+}

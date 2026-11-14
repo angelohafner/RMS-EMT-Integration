@@ -15,10 +15,19 @@ The [video instructions](video/README.md) include independent rendering without
 simulator licenses. English narration, captions, Schemdraw circuits and MathTex
 variables are included. [CONTEXT.md](CONTEXT.md) preserves the project decisions.
 
-The release also contains `RMS_EMT_STATCOM_Dynamic_v2.zip` with the actual native
-runs and their SHA-256 manifest. Extract its `RMS_EMT_STATCOM/runs/` directory
-into this project root to use the existing-run commands below. These large
-native outputs are release assets, not Git history.
+**Native PSS/E and PSCAD files are included directly in [runs/](runs/README.md).**
+The current cases are [capacitive](runs/dynamic_capacitive_v2/),
+[inductive](runs/dynamic_inductive_v2/) and
+[time-step refinement](runs/dynamic_timestep_v2/). Each includes the PSCAD
+`.pscx`, PSS/E `.sav`, dynamic `.dyr` and diagnostic `.snp` files, together with
+the recorded configuration and provenance. Earlier native cases are retained
+in their original folders; see the run index before selecting a case.
+
+The release also contains `RMS_EMT_STATCOM_Dynamic_v2.zip` with the complete
+native runs and their SHA-256 manifest. Extract its `RMS_EMT_STATCOM/runs/`
+directory into this project root to use the existing-run reporting commands
+below. Large output traces (`.out`, `.outx`, processed CSVs) remain release
+assets; the native model files are also versioned in Git.
 
 The native dynamic extension is documented in [DYNAMIC_MODEL.md](docs/DYNAMIC_MODEL.md).
 Run `py -3.11 -m rms_emt.cli compare runs/release_capacitive --output runs/my_dynamic`

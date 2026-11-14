@@ -1,0 +1,92 @@
+[
+  {
+    "check": "Output reaches requested stop time",
+    "passed": true,
+    "actual": 2.0,
+    "limit": 2.0
+  },
+  {
+    "check": "Uniform output sample interval",
+    "passed": true,
+    "actual": 2.1103995287430344e-16,
+    "limit": 2e-06
+  },
+  {
+    "check": "Fault inception",
+    "passed": true,
+    "actual": 1.0,
+    "limit": 1.0
+  },
+  {
+    "check": "Fault duration",
+    "passed": true,
+    "actual": 0.1499999999999999,
+    "limit": 0.15
+  },
+  {
+    "check": "Measured fault branch V=R I",
+    "passed": true,
+    "actual": 0.007304370672069073,
+    "limit": 0.01
+  },
+  {
+    "check": "Measured fault branches open outside event",
+    "passed": true,
+    "actual": 4.5193675769096e-07,
+    "limit": 1e-05
+  },
+  {
+    "check": "Low-impedance PCC fault causes voltage depression",
+    "passed": true,
+    "actual": 0.00750715774651905,
+    "limit": 0.3
+  },
+  {
+    "check": "STATCOM commanded current limit",
+    "passed": true,
+    "actual": 0.9997943362999,
+    "limit": 1.0
+  },
+  {
+    "check": "STATCOM instantaneous current envelope",
+    "passed": true,
+    "actual": 0.3549255031384634,
+    "limit": 0.35499851344683747
+  },
+  {
+    "check": "Settled pre-fault voltage agreement",
+    "passed": true,
+    "actual": 2.948991983942051e-08,
+    "limit": 0.01
+  },
+  {
+    "check": "Settled pre-fault reactive power agreement",
+    "passed": true,
+    "actual": 5.932074082437566e-05,
+    "limit": 1.0
+  },
+  {
+    "check": "Pre-fault voltage settled",
+    "passed": true,
+    "actual": 7.611829877518517e-08,
+    "limit": 0.005
+  },
+  {
+    "check": "Pre-fault reactive-only terminal active power",
+    "passed": true,
+    "actual": 1.7034752097817608e-09,
+    "limit": 0.5
+  },
+  {
+    "check": "Pre-fault PCC active power balance",
+    "passed": true,
+    "actual": 5.4516701609941265e-05,
+    "limit": 0.5
+  },
+  {
+    "check": "Pre-fault PCC reactive power balance",
+    "passed": true,
+    "actual": 4.7090908394054054e-05,
+    "limit": 0.5
+  }
+]
